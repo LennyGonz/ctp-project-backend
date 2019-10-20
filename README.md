@@ -50,3 +50,6 @@ At the moment, these are all the available endpoints:
 * GET   /api/meetup    -  retrieve [meetup.com](https://www.meetup.com/) data. Must provide the following as urlencoded: ```limit```, ```keywords```
 * POST  /api/register  -  register a new user. Must provide the following as urlencoded: ```first_name```, ```last_name```, ```email```, ```password```
 * POST  /api/login     -  log in an existing user. Must provide the following as urlencoded: ```email```, ```password```. Upon success, client will be sent a JSON object containing its information an a signed token
+
+## Changes
+Please feel free to fork and correct any changes
